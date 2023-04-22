@@ -19,6 +19,7 @@ int main() {
  wait(0.25); // the instruction to wait for a quarter-second
  if (x==1){
      lcd.printf("hello");
+     x=0;
  }
 }
 }
